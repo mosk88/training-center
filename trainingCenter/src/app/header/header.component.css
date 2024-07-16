@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons li {
+    margin-left: 10px;
+}
+
+.social-icons li a img {
+    height: 30px;
+}
+
+.social-icons li a {
+    display: block;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
