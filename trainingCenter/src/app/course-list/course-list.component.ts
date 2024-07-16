@@ -1,5 +1,9 @@
 import { NgFor } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
+import { RegistrationFormComponent } from '../registration-form/registration-form.component';
+import { RouterLink } from '@angular/router';
+
+
 export interface Course {
   image: string;
   nom: string;
@@ -10,13 +14,15 @@ export interface Course {
   tarif: number;
 }
 
+
 @Component({
   selector: 'app-course-list',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor, RegistrationFormComponent, RouterLink],
   templateUrl: './course-list.component.html',
   styleUrl: './course-list.component.css'
 })
+
 export class CourseListComponent {
 
   courses: Course[] = [
@@ -111,6 +117,9 @@ export class CourseListComponent {
       tarif: 5000 
     },
   ]
+  saveChanges(){
+    alert("saved")
+  }
 
 }
 
