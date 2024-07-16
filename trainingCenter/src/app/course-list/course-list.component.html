@@ -1,0 +1,14 @@
+<section class="course">
+<div class="card-container">
+    <div class="card" *ngFor="let course of courses">
+        <img src="{{course.image}}" alt=""/>
+        <h3>{{course.nom}}</h3>
+        <p>{{course.stackTechnique}}</p>
+        <p>{{course.dates}}</p>
+        <p>{{course.titre}}</p>
+        <p>{{course.numbreDePlace}} places</p>
+        <p>{{course.tarif}} €</p>
+        <button>s'inscrire</button>
+    </div>
+</div>
+</section>

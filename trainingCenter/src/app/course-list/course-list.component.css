@@ -1,0 +1,57 @@
+.course{
+    background-image: url("https://etudestech.com/wp-content/uploads/2023/05/midjourney-scaled.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    width: 100wh;
+    margin: -8px -8px;
+}
+.card-container {
+   display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;   
+    box-sizing: border-box;
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+    margin: 5px 0;
+}
+button{
+    background-color: #333;
+    color: #fff;
+    border-color: burlywood;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
