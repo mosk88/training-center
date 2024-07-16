@@ -5,15 +5,13 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px 20px;
+    padding: 30px 30px;
+    margin: -8px;
     background-color: #333;
 }
 
-.logo img {
-    height: 40px;
-}
 
 .social-icons {
     list-style: none;
@@ -23,7 +21,7 @@ body {
 }
 
 .social-icons li {
-    margin-left: 10px;
+    margin-left: 80px;
 }
 
 .social-icons li a img {
@@ -38,3 +36,6 @@ body {
     color: #fff;
     text-decoration: none;
 }
+ hr{
+    width: 100%;
+ }

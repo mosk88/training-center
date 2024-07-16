@@ -1,0 +1,93 @@
+.presentation {
+
+background-image: url("https://etudestech.com/wp-content/uploads/2023/05/midjourney-scaled.jpeg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+width: 100wh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: end;
+text-align: center;
+color: white;
+margin: -8px -8px;
+}
+
+.center{
+    text-align: center;
+    margin: 20px;
+    padding: 0;  
+}
+button{
+    background-color: #333;
+    color: #fff;
+    border-color: burlywood;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin-bottom: -130px;
+    margin-right: 200px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    flex: 1;
+   background-color: #007bff;
+   opacity: 0.8;
+    padding: 20px; 
+}
+
+.content h1 {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.content p {
+    color: white;
+    font-size: 20px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.cta {
+    text-align: center;
+    padding: 20px;
+}
+
+.cta button {
+    background-color: #ffd700;
+    color: #000000;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta button:hover {
+    background-color: #ffc700;
+}
