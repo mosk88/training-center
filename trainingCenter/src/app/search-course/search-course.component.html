@@ -1,0 +1,25 @@
+<!-- <div>
+    <p *ngIf="isComplete"> formation complete</p>
+    <p *ngIf="!isComplete"> formation non complete</p>
+</div> -->
+
+<div class="container">
+    <select name="domain" title="" (change)="filterByTitle($event)" >
+        <option value="list">selectioner une formation</option>
+        <option value="IT">IT</option>
+        <option value="Devops">Devops</option>
+        <option value="Data science">Data science</option>
+    </select>
+    <div class="card" *ngFor="let course of filteredCourses" >
+        <img src="{{ course.image }}" alt="">
+        <h3>{{ course.nom }}</h3>
+        <p>{{ course.stackTechnique }}</p>
+        <p>{{ course.dates }}</p>
+        <p>{{ course.titre }}</p>
+        <p>{{ course.numbreDePlace }} places</p>
+        <p>{{ course.tarif }} €</p>
+    </div>
+    
+</div>
+
+
